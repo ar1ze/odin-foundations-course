@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>The Cascade</title>
+</head>
+
+<body>
+  <h3>Class Specifity</h3>
+  <div class="main">
+    <div class="list subsection">Red text</div>
+  </div>
+ 
+  <h3>ID Specificity</h3>
+  <div class="main">
+    <div class="list" id="subsection">Blue text</div>
+  </div>
+
+  <h3>Ineritance</h3>
+  <div id="parent">
+    <div class="child">Inheritance</div>
+  </div>
+
+  <h3>Rule order</h3>
+  <div class="alert warning">
+    <p>Alert</p>
+  </div>
+</body>
+
+</html>
