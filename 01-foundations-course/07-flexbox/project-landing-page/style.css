@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+header {
+  background: #1F2937;
+}
+
+header .logo {
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+}
+
+header a {
+  font-size: 12px;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.header-nav, 
+.header-content {
+  padding: 0 14%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+
+/* Header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding-top: 72px;
+  padding-bottom: 96px;
+}
+
+.header-content-left {
+  flex: 4;
+}
+
+.header-content-left h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.header-content-left p {
+  color: lightgray;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 8px;
+}
+
+.header-content-right {
+  background: #6c737c;
+  flex: 5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-content-right p {
+  color: #fff;
+}
+
+.header-content-left button {
+  background: #3b81f4;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 24px;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* Main content container*/
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Random info section */
+main .random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 54px;
+}
+
+main .random-info h2 {
+  font-size: 24px;
+}
+
+main .cards {
+  display: flex;
+  gap: 36px;
+}
+
+main .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding-top: 12px;
+}
+
+.card .box,
+.card p {
+  width: 110px;
+}
+
+.card .box {
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  height: 110px;
+}
+
+.card p {
+  color: #68707c;
+  flex: 1;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+/* Block qoute section */
+main .quote {
+  background: #E5E7EB;
+  padding: 64px 14% 42px;
+}
+
+.quote .text {
+  font-style: italic;
+  font-size: 22px;
+  color: #1F2937;
+  font-weight: 300;
+  margin: 0;
+}
+
+.quote .person {
+  text-align: right;
+  font-weight: bold;
+  margin: 12px 0 0;
+  font-size: 16px;
+}
+
+/* Signup section */
+main .sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+main .sign-up-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3882F6;
+  padding: 26px 72px;
+  border-radius: 5px;
+  gap: 48px;
+}
+
+.sign-up-left h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.sign-up-left p {
+  margin: 0;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.sign-up-right button {
+  background: #3882F6;
+  padding: 4px 24px;
+  border: 1px solid white;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F2937;
+  padding: 24px;
+}
+
+footer span {
+  color: #E5E7EB;
+  font-size: 12px;
+}
+
+/* Extras */
+.letter-spacing {
+  letter-spacing: 0.1px;
+}
