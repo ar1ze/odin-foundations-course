@@ -1,5 +1,5 @@
 // Logical operotrs OR AND NOT
-console.log(`"true || true" is: ${true ||  true}`);
+console.log(`"true || true" is: ${true || true}`);
 console.log(`"false || true" is: ${false || true}`);
 
 let hour = 9;

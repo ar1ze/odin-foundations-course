@@ -9,21 +9,21 @@ function hello(name = 'Chris') {
   console.log(`Hello ${name}!`);
 }
 
-hello("Ari");
+hello('Ari');
 hello();
 
 // Alternative default parameters
 function showMessage(from, text) {
-  if (text === undefined)  {
-    text = "no text given";
+  if (text === undefined) {
+    text = 'no text given';
   }
   console.log(`${from}: ${text}`);
 }
-showMessage("from", "text");
+showMessage('from', 'text');
 
 // Anonumous funtion
 (function () {
-  console.log("hello");
+  console.log('hello');
 });
 
 // Return function
@@ -33,17 +33,17 @@ function random(number) {
 }
 
 // Function expression
-let sayHi = function() {
-  console.log("Hello");
+let sayHi = function () {
+  console.log('Hello');
 };
 
 sayHi();
 
 // Function as a value
 function sayFunction() {
-  console.log("Say function");
-};
-console.log(sayFunction)
+  console.log('Say function');
+}
+console.log(sayFunction);
 
 // Callback functions
 function ask(question, yes, no) {
@@ -55,7 +55,7 @@ function ask(question, yes, no) {
 }
 
 function showOk() {
-  console.log("You agreed.");
+  console.log('You agreed.');
 }
 
 function showCancel() {
@@ -66,14 +66,14 @@ function showCancel() {
 
 // Arrow funtions, the basics
 let sum = (a, b) => a + b;
-console.log(`a + b using arrow function ${sum(1,2)}`);
+console.log(`a + b using arrow function ${sum(1, 2)}`);
 
 // Multiline arrow functions
 let sumMulti = (a, b) => {
   let result = a + b;
   return result;
 };
-console.log(`a + b using multiline arrow function: ${sumMulti(1,2)}`);
+console.log(`a + b using multiline arrow function: ${sumMulti(1, 2)}`);
 
 // JavaScript Call Stack
 function add(a, b) {
@@ -87,20 +87,18 @@ function average(a, b) {
 let x = average(10, 20);
 console.log(`Calculating averge: ${x}`);
 
-
 // Stack overflow
 function fn() {
   fn();
 }
 // console.log(fn())
 
-
 // Assignment 1
 function add7(a) {
   return a + 7;
 }
 
-let add7Ex = function(a) {
+let add7Ex = function (a) {
   return a + 7;
 };
 
@@ -116,8 +114,8 @@ function multiply(a, b) {
   return a * b;
 }
 
-let multiplyEx = function(a, b) {
-  return  a * b;
+let multiplyEx = function (a, b) {
+  return a * b;
 };
 
 let multiplyArrow = (a, b) => {
@@ -133,11 +131,15 @@ function capitalize(s) {
   let capitalized = firstLetter.toUpperCase();
   return s.replace(firstLetter, capitalized);
 }
-let word = "ar1ze";
-console.log(`Input word: ${word}\nOutput the function capitalize: ${capitalize(word)}`);
+let word = 'ar1ze';
+console.log(
+  `Input word: ${word}\nOutput the function capitalize: ${capitalize(word)}`
+);
 
 // Assignment 4
 function lastLetter(s) {
   return s.charAt(s.length - 1);
 }
-console.log(`Input word: ${word}]\nOutpuut the function lastLetter: ${lastLetter(word)}`);
+console.log(
+  `Input word: ${word}]\nOutpuut the function lastLetter: ${lastLetter(word)}`
+);

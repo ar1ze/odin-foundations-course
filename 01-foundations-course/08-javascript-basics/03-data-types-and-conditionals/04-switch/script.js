@@ -10,7 +10,7 @@ switch (a) {
     console.log('Exactly');
   case 5:
     console.log('Too big');
-  default: 
+  default:
     console.log(`I don't know such values`);
     break;
 }
