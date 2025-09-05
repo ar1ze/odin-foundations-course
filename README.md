@@ -1,6 +1,5 @@
-# the-odin-project
+# The Odin Project: Foundations Course
 
-Working through The Odin Project's full-stack curriculum to develop comprehensive web development skills. This repository contains my projects, exercises, and progress as I build from foundational concepts to advanced full-stack applications.
+This repository documents my progress through The Odin Project's **Foundations curriculum**. The goal is to build a strong base in web development fundamentals, starting with core concepts and practical application.
 
-Having completed HTML and CSS fundamentals through MDN, I'm now expanding my learning with TOP's project-based approach that emphasizes real-world application and problem-solving skills.
-
+I have completed the HTML and CSS fundamentals on MDN and am now using TOP's project-based approach to solidify these skills and learn additional topics such as JavaScript, Git, and the command line. This repository serves as a record of my projects, exercises, and overall learning journey.
