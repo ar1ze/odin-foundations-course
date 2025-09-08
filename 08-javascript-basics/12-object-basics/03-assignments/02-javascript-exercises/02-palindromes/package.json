@@ -1,0 +1,15 @@
+{
+  "name": "02-palindromes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "palindrome.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
