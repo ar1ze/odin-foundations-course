@@ -1,12 +1,11 @@
 # The Odin Project: Foundations
 
-This repository contains all my projects, exercises, and notes from The Odin Project's Foundations curriculum. The focus is on building a strong and comprehensive base in the essential tools and languages of web development.
+This repository contains my exercises and notes from The Odin Project's Foundations curriculum. The focus is on building a strong and comprehensive base in the essential tools and languages of web development.
 
 ---
 
 ## What's Inside
 
-* **Projects**: All project-based assignments, from simple landing pages to JavaScript applications.
 * **Exercises**: Code from individual lessons to practice specific concepts.
 * **Notes**: My personal notes and summaries on key topics like Flexbox, Git, and JavaScript basics.
 
